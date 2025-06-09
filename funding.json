@@ -1,0 +1,65 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "organisation",
+    "role": "owner",
+    "name": "Writtek",
+    "email": "rorsolution@gmail.com",
+    "phone": "8839390992",
+    "description": "RoRSolutions, a Bangalore-based Proprietorship, where we focus on providing affordable, easy-to-use automations for businesses.",
+    "webpageUrl": {
+      "url": "https://www.rorsolutions.in"
+    }
+  },
+  "projects": [
+    {
+      "guid": "prashnayan",
+      "name": "Prashnayan",
+      "description": "Prashnayan is a free to use platform, that helps Educators, Students & Interviewers generate powerful AI-powered assessments and question papers in just a few clicks. It converts any type of content like pdf, text context, topic, url, images, YouTube video into questions, which can be further generated based on difficulty level, various type of questions(short answer, long answer, true/false, match etc) into online assessments also on the same portal by adding the candidates for the assessment. It aims to be a One-Stop Solution for all assessment related requirements.",
+      "webpageUrl": {
+        "url": " https://prashnayan.com/",
+        "wellKnown": " https://prashnayan.com/"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/Writtek07/prashnasutra"
+      },
+      "licenses": [
+        "BSD 3-Clause"
+      ],
+      "tags": [
+        "genaitool",
+        "aigeneration",
+        "onlineassessment",
+        "tutors",
+        "HR's",
+        "schools",
+        "colleges",
+        "coaching institutes"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "my_account",
+        "type": "bank",
+        "address": "Bellandur Gate,sarjapur Main Road,"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "my_plan",
+        "status": "active",
+        "name": "First Investment",
+        "description": "The money will be utilized for the monthly hosting charge of the application and its services over AWS. Ads and other sales channels of promotions for the product. More development on the product through outsourcing/internships. ",
+        "amount": 40000,
+        "currency": "INR",
+        "frequency": "monthly",
+        "channels": [
+          "my_account"
+        ]
+      }
+    ],
+    "history": []
+  }
+}
