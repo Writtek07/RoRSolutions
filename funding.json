@@ -17,7 +17,8 @@
       "name": "Prashnayan",
       "description": "Prashnayan is a free to use platform, that helps Educators, Students & Interviewers generate powerful AI-powered assessments and question papers in just a few clicks. It converts any type of content like pdf, text context, topic, url, images, YouTube video into questions, which can be further generated based on difficulty level, various type of questions(short answer, long answer, true/false, match etc) into online assessments also on the same portal by adding the candidates for the assessment. It aims to be a One-Stop Solution for all assessment related requirements.",
       "webpageUrl": {
-        "url": "https://prashnayan.com/"
+        "url": "https://prashnayan.com/",
+        "wellKnownUrl": "https://prashnayan.com/well_known/funding_manifest_urls"
       },
       "repositoryUrl": {
         "url": "https://github.com/Writtek07/prashnasutra"
