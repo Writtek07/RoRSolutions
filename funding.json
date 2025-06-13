@@ -42,14 +42,15 @@
   "funding": {
     "channels": [
       {
-        "guid": "my_account",
+        "guid": "my-account",
         "type": "bank",
-        "address": "Bellandur Gate,sarjapur Main Road,"
+        "address": "Bellandur Gate,sarjapur Main Road,",
+        "description": ""
       }
     ],
     "plans": [
       {
-        "guid": "my_plan",
+        "guid": "my-plan",
         "status": "active",
         "name": "First Investment",
         "description": "The money will be utilized for the monthly hosting charge of the application and its services over AWS. Ads and other sales channels of promotions for the product. More development on the product through outsourcing/internships. ",
@@ -57,7 +58,7 @@
         "currency": "INR",
         "frequency": "monthly",
         "channels": [
-          "my_account"
+          "my-account"
         ]
       }
     ],
