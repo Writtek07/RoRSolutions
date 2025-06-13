@@ -22,6 +22,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/Writtek07/prashnasutra"
+        "wellKnown": "https://github.com/Writtek07/prashnasutra/tree/main/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "BSD 3-Clause"
