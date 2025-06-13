@@ -21,7 +21,7 @@
         "wellKnown": "https://prashnayan.com/.well-known/funding-manifest-urls"
       },
       "repositoryUrl": {
-        "url": "https://github.com/Writtek07/prashnasutra"
+        "url": "https://github.com/Writtek07/prashnasutra",
         "wellKnown": "https://github.com/Writtek07/prashnasutra/tree/main/.well-known/funding-manifest-urls"
       },
       "licenses": [
