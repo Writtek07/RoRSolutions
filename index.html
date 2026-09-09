@@ -63,10 +63,23 @@
       <li><a href="#contact">Contact</a></li>
     </ul>
     <a href="#contact" class="nav-cta">Start a Project →</a>
-    <button class="hamburger" id="menuBtn" aria-label="Open menu">
+    <button class="hamburger" id="menuBtn" aria-label="Open menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </nav>
+
+  <!-- MOBILE MENU OVERLAY -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="mobile-menu-inner">
+      <a href="#about" class="mobile-menu-link" data-close>About</a>
+      <a href="#services" class="mobile-menu-link" data-close>Services</a>
+      <a href="#process" class="mobile-menu-link" data-close>Process</a>
+      <a href="#projects" class="mobile-menu-link" data-close>Work</a>
+      <a href="#why" class="mobile-menu-link" data-close>Why Us</a>
+      <a href="#contact" class="mobile-menu-link" data-close>Contact</a>
+      <a href="#contact" class="mobile-menu-cta" data-close>Start a Project →</a>
+    </div>
+  </div>
 
   <!-- HERO -->
   <section id="hero">
