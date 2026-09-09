@@ -40,6 +40,27 @@ nav.scrolled{background:rgba(6,12,26,0.88);backdrop-filter:blur(24px);-webkit-ba
 .nav-cta:hover{box-shadow:0 0 28px rgba(37,99,235,0.5);transform:translateY(-1px)}
 .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px}
 .hamburger span{width:24px;height:1.5px;background:var(--white);border-radius:2px;transition:all 0.3s;display:block}
+.hamburger[aria-expanded="true"] span:nth-child(1){transform:translateY(6.5px) rotate(45deg)}
+.hamburger[aria-expanded="true"] span:nth-child(2){opacity:0}
+.hamburger[aria-expanded="true"] span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
+
+/* ── MOBILE MENU OVERLAY ── */
+.mobile-menu{position:fixed;inset:0;z-index:199;background:var(--navy);display:none;align-items:center;justify-content:center;opacity:0;visibility:hidden;pointer-events:none;transition:opacity 0.35s ease,visibility 0.35s ease}
+@media(max-width:900px){.mobile-menu{display:flex}}
+.mobile-menu.open{opacity:1;visibility:visible;pointer-events:auto}
+.mobile-menu-inner{display:flex;flex-direction:column;align-items:center;gap:8px;padding:0 6%}
+.mobile-menu-link{font-family:'Syne',sans-serif;font-weight:700;font-size:clamp(1.6rem,6vw,2.6rem);color:var(--white);text-decoration:none;letter-spacing:-0.02em;opacity:0;transform:translateY(20px);transition:opacity 0.4s ease,transform 0.4s ease,color 0.2s}
+.mobile-menu.open .mobile-menu-link{opacity:1;transform:translateY(0)}
+.mobile-menu.open .mobile-menu-link:nth-child(1){transition-delay:0.05s}
+.mobile-menu.open .mobile-menu-link:nth-child(2){transition-delay:0.12s}
+.mobile-menu.open .mobile-menu-link:nth-child(3){transition-delay:0.19s}
+.mobile-menu.open .mobile-menu-link:nth-child(4){transition-delay:0.26s}
+.mobile-menu.open .mobile-menu-link:nth-child(5){transition-delay:0.33s}
+.mobile-menu.open .mobile-menu-link:nth-child(6){transition-delay:0.40s}
+.mobile-menu.open .mobile-menu-cta{transition-delay:0.47s}
+.mobile-menu-link:hover{color:var(--cyan)}
+.mobile-menu-cta{margin-top:18px;background:var(--blue);color:var(--white);padding:14px 36px;border-radius:10px;font-weight:600;font-size:0.95rem;text-decoration:none;opacity:0;transform:translateY(20px);transition:opacity 0.4s ease,transform 0.4s ease,box-shadow 0.2s;box-shadow:0 4px 24px rgba(37,99,235,0.3)}
+.mobile-menu-cta:hover{box-shadow:0 8px 40px rgba(37,99,235,0.5);transform:translateY(-2px)}
 
 /* ── HERO ── */
 #hero{position:relative;min-height:100vh;display:flex;align-items:center;padding:140px 6% 100px;overflow:hidden}
